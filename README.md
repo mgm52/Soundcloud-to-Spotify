@@ -11,5 +11,5 @@ A command-line executable to convert Soundcloud likes into Spotify playlists.
     "redirect_uri": "..."
 }
 ```
-- Copy the content of https://soundcloud.com/you/likes (simply `CTRL+A`, `CTRL+C` on Windows) into a text file.
+- Copy the content of https://soundcloud.com/you/likes (simply `CTRL+A`, `CTRL+C` on Windows) into a text file. (Unfortunately Soundcloud doesn't offer a nicer API for this...)
 - Run `sc_to_sp.exe` and provide the path to the text file.
